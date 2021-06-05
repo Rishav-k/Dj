@@ -1,0 +1,39 @@
+body{
+    background:black;
+}
+
+
+h1{
+    font-size: 80px;
+    text-align: center ;
+    color:rgb(212, 97, 44);
+    text-shadow: -20px -40px rgba(50, 124, 112, 0.555) ;
+}
+.snd{
+    font-size: 40px;
+    text-decoration: none;
+    line-height: 100px;
+}
+.box{
+    border:5px solid white;
+    height:300px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+   
+    
+}
+.snd{
+    background:radial-gradient(rgb(201, 200, 200),rgb(9, 131, 131));
+    box-shadow: 10px 10px rgba(18, 53, 47, 0.555);
+    border:0px solid red;
+    height:100px;
+    width:100px;
+    align-self: center;
+    text-align: center;
+}
+.pressed{
+    box-shadow: 3px 3px rgb(14, 80, 77);
+    background: salmon;
+    border: 10px solid orangered;
+}
